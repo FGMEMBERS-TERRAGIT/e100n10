@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Airport/ndb.ac 108.204233 16.017086 13.12 180
+OBJECT_SHARED Models/Airport/ils.xml 108.202931 16.033347 6.9 8.21
+OBJECT_SHARED Models/Communications/vordme_1.xml 108.198228 16.052764 7.84 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 108.202931 16.033347 6.9 180
+OBJECT_SHARED Models/Airport/localizer.xml 108.198008 16.060425 6.79 82.06
+OBJECT_STATIC danang-administrative-center.ac 108.222771 16.076853 9.33 188
+OBJECT_STATIC dragon-bridge.ac 108.2289722 16.0507237 0 97
