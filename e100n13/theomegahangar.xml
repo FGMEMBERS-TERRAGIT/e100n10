@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>omegahangar.ac</path>
+
+	<animation>
+		<name>Hangar Door</name>
+		<type>pick</type>
+		<object-name>door</object-name>
+		<object-name>blah</object-name>
+		<action>
+			<button>0</button>
+			<button>3</button>
+			<repeatable type="bool">true</repeatable>
+			<binding>
+				<command>property-adjust</command>
+				<property>/controls/lighting/door</property>
+				<step>0.2</step>
+				<max>40</max>
+			</binding>
+		</action>
+		<action>
+			<button>1</button>
+			<button>4</button>
+			<repeatable type="bool">true</repeatable>
+			<binding>
+				<command>property-adjust</command>
+				<property>/controls/lighting/door</property>
+				<step>-0.2</step>
+				<min>0</min>
+			</binding>
+		</action>
+	</animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>door</object-name>
+        <property>/controls/lighting/door</property>
+        <factor>-5</factor>
+        <center>
+            <x-m>0</x-m>
+            <y-m>8.703</y-m>
+            <z-m>-3</z-m>
+        </center>
+        <axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+</PropertyList>
